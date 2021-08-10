@@ -25,10 +25,11 @@ class ViewController: UIViewController, UITextFieldDelegate {
     }
     
     
-    var radius = 8.0
+    var radius = 7.0
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        //ajdkasjdkasj
         facebookButton.layer.cornerRadius = CGFloat(radius)
         googleButton.layer.cornerRadius = CGFloat(radius)
         loginButton.layer.cornerRadius = CGFloat(radius)
