@@ -110,6 +110,9 @@ existing account. </string>
                                         <state key="normal" title="    Login ">
                                             <color key="titleColor" red="0.96470588450000005" green="0.96470588450000005" blue="0.99215686319999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         </state>
+                                        <connections>
+                                            <action selector="loginAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IUc-JC-zEX"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="or login via" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lNG-sp-LnN">
                                         <rect key="frame" x="0.0" y="58" width="364" height="30"/>
@@ -161,6 +164,13 @@ existing account. </string>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="lZk-5z-3KW" secondAttribute="trailing" constant="25" id="omP-Po-l4k"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="emailTextField" destination="7eP-ZW-ssR" id="6lI-Pa-pw2"/>
+                        <outlet property="facebookButton" destination="aIL-p3-QtF" id="8kP-Tb-qc8"/>
+                        <outlet property="googleButton" destination="sHc-A3-Y2F" id="BJg-GD-9eY"/>
+                        <outlet property="loginButton" destination="cFy-3E-7Ns" id="1ME-hd-16x"/>
+                        <outlet property="passwordTextField" destination="qOa-zo-wvb" id="Glg-q0-emW"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
